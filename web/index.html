@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    </head>
+    <body>
+        <div style="width:50%; align-content: center;">
+            <!--http:/./192.168.1.115:8080/mspacehelpdesk/offlineweb-->
+            <form class="well form-horizontal" action="offlineweb" method="post" name="form"  >
+                <fieldset>
+
+                    <!-- Text input-->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">E-Mail *</label>  
+                        <div class="col-md-8 inputGroupContainer">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                <input name="email"
+                                       placeholder="E-Mail Address" 
+                                       class="form-control" 
+                                       required 
+                                       type="email" 
+                                       autofocus >
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "form-group"><label class = "col-md-4 control-label" > Phone No. * </label>
+                        <div class="col-md-8 inputGroupContainer">
+                            <div class = "input-group">
+                                <span class = "input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+                                <input name="tel" placeholder="Phone Number" class="form-control" required type="tel" autofocus>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <!-- Text input-->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Message *</label>  
+                        <div class="col-md-8 inputGroupContainer">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-eye-open"></i></span>
+                                <input name="message"
+                                       id="Message" 
+                                       placeholder="Message" 
+                                       class="form-control" 
+                                       required
+                                       style="height: 200px;"
+                                       >
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Button -->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label"></label>
+                        <div class="col-md-4">
+                            <button type="submit" class="btn btn-primary">Send <span class="glyphicon glyphicon-send"></span></button>
+                        </div>
+                    </div>
+
+                </fieldset>
+            </form>
+
+        </div>
+
+    </body>
+</html>
