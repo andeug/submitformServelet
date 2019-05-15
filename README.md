@@ -11,8 +11,11 @@ Before the end of your <body> section, add the following JavaScript links. This 
 	
   <!-- ** Don't forget to Add jQuery here ** -->
   <script src="lib/js/config.js"></script>
+  
   <script src="lib/js/util.js"></script>
+  
   <script src="lib/js/jquery.emojiarea.js"></script>
+  
   <script src="lib/js/emoji-picker.js"></script>
   
 On any input field, add the data attribute data-emojiable="true".
